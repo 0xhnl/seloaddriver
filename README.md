@@ -1,3 +1,21 @@
+Identify Vulnerability
+
+```bash
+
+PS C:\Users\hnl\Desktop> whoami /all
+
+PRIVILEGES INFORMATION
+----------------------
+
+Privilege Name                Description                    State
+============================= ============================== =======
+SeMachineAccountPrivilege     Add workstations to domain     Enabled
+SeLoadDriverPrivilege         Load and unload device drivers Enabled
+SeShutdownPrivilege           Shut down the system           Enabled
+SeChangeNotifyPrivilege       Bypass traverse checking       Enabled
+SeIncreaseWorkingSetPrivilege Increase a process working set Enabled
+```
+
 Download and unzip it, you will get four files such as Simple_Rev_Shell.cs, Capcom.sys, EoPLoadDriver and ExploitCapcom
 
 ```bash
